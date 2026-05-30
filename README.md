@@ -1,18 +1,34 @@
-## Getting Started
+# GUI Kasir Butik
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A collaborative Java project for a boutique cashier system using `JOptionPane`. This application demonstrates basic inventory management, state handling, and user interaction through a graphical interface.
 
-## Folder Structure
+## Team Overview
+This project was developed by a team of three students, focusing on object-oriented logic and clean GUI implementation in Java.
 
-The workspace contains two folders by default, where:
+- **Project Lead**: Devi Rosa Aprilla
+- **Developer**: Aleyya Innasya El Karima Wicaksono
+- **Developer**: Raihan Syawalul (5002241132)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Features
+- Mini inventory system (Baju, Celana, Topi, etc.)
+- Real-time stock updates
+- Balance tracking
+- Input validation (minimum cash check)
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## How to Run
+1. Make sure you have Java installed.
+2. Compile the source:
+   ```bash
+   javac src/GUIKasir.java
+   ```
+3. Run it:
+   ```bash
+   java -cp src GUIKasir
+   ```
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Items in Stock
+- **Baju**: Rp100.000
+- **Celana**: Rp150.000
+- **Topi**: Rp50.000
+- **Kaos Kaki**: Rp20.000
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
